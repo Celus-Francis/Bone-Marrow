@@ -1,0 +1,280 @@
+h2,h4{
+  font-family: 'Titillium Web', sans-serif;
+}
+h2{
+  font-size: 2em;
+}
+h1{
+  color: #22B78E;
+  font-family: 'StagSans-Medium', sans-serif;
+  font-size: 31px;
+  font-weight: bold;
+  text-align: left;
+}
+body{
+  font-family: 'StagSans-Medium', sans-serif;
+  font-size:1em;
+  text-align: left;
+  margin-bottom: 0%;
+  background-color: #fff;
+  color: #7a7979;
+}
+
+/* Title */
+  #maintitle {
+    background-image: url("../images/Banner_mage 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container-fluid{
+    padding:2%;
+  }
+  .aster-logo-white{
+    color: #fff;
+  }
+  .adult-paediatric-b {
+    color: #FFFFFF;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:2rem;
+    letter-spacing: 1.28px;
+    line-height: 40px;
+    text-align: left;
+    padding-top: 5%;
+  }
+  .treat{
+  color: rgb(167, 158, 158);
+  font-size: 10px;
+  padding: 0%;
+  } 
+  .haematology-oncolo {
+    color: rgb(209, 190, 190);
+    font-size: 25px;
+    letter-spacing: 3.59px;
+    line-height: 34px;
+    text-align: left;
+    padding-bottom: 5%;
+  }
+  .book-an-appoinment {
+    background-color: #DD5A6A;
+    border-radius: 3.2px;
+    width: 186px;
+    height: 45px;
+    color: #FFFFFF;
+    font-family: 'Arial-Bold';
+    font-size: 14.4px;
+  }
+
+/*Enquiry Form*/
+  .container-fluid .enquiry {
+    background-color: #FFFFFF;
+    box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+    float: left;     
+  }
+  .container-fluid .contact-form {
+    width:95%;
+    height: auto;
+    margin-left: 2%;
+    float: left;
+    padding: 2%;
+  }
+  .container-fluid .contact-form .title {
+    color: #213559;
+    font-size: 20.08px;
+    line-height: 24px;
+    width: 127px;
+  }
+  .container-fluid .contact-form input,
+  .container-fluid .contact-form textarea {
+    border: 0.87px solid #D0D0D0;
+    width: 100%;
+    height: 8%;    
+    padding: 3%;
+    margin: 2% 3%;
+    font-size: 12.2px;
+    line-height: 24px;
+    color: #5c5b5b;
+  }
+  .container-fluid .contact-form input::placeholder,
+  .container-fluid .contact-form textarea::placeholder {
+    color: #5c5b5b;
+  }
+  .container-fluid .contact-form .btn-send {
+    background-color: #DD5A6A;
+    width: 111px;
+    height: 44px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 2% 8%;
+    border: none;
+  }
+  
+/*Features*/
+.features{
+  padding-top: 5%;
+}
+.container-fluid .bmt{
+  background: linear-gradient(90deg, rgba(46,196,184,1) 0%, rgba(96,120,234,1) 100%);
+  border-radius: 4px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding:3%;
+  margin-top: 5%;
+}
+
+/*Doctors*/
+
+.card {
+  background-color: #F9F9FF;
+  border-radius: 4px;
+}
+.card-title {
+  color: #22B78E;
+  letter-spacing: 0.99px;
+  line-height: 44px;
+  font-weight: bold;
+  font-size:24px;
+  text-align: center;
+}
+.bitmap{
+ width:40%;
+}
+.dr-vijay{
+  color: #1D5AA6;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  font-weight: bold;
+  padding-top: 5%;
+}
+.designation{
+  color: #1D5AA6;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  line-height: 3px;
+  text-align: center;
+}
+.new{
+  border: 1px solid #22B78E !important;
+  background-color: #22B78E;
+  width: 15%;
+  margin-left:40%;
+}
+.know-more {
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 18px;
+  background: linear-gradient(90deg, rgba(46,196,184,1) 0%, rgba(96,120,234,1) 100%);
+  border-radius: 4px;
+  margin-bottom: 2%;
+}
+
+/*Types*/
+
+ul {
+  list-style: none; 
+}
+ul li::before {
+  content: "\002B";  
+  color: red; 
+  float: center;
+  font-weight: bold; 
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em;
+}
+li{
+  padding:2%;
+  font-size: 14px;
+}
+
+/*Warning Signs*/
+.group-icon{
+  width: 12%;
+  height: 24%;
+}
+.card-content{
+  padding-top: 3%;
+}
+.signs-card{
+  background-color: #FFFFFF;
+  border: 1px solid #E5EAFF;
+  border-radius: 4px;
+  box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+  width: 255px;
+  height: 170px;
+}
+/*Questions*/
+.question-card{
+  color: #1D5AA6;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height:1em;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #E5EAFF;
+  border-radius: 4px;
+  box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+  padding:1%;
+  margin:2px;
+}
+.questions ul li::before {
+  content: "\2713";
+  color: #22B78E;;  
+  float: center;
+  font-weight: bold; 
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em;
+  text-align: left;
+}
+.arrow{
+  width: 10px;
+  height:10px;
+  float: right;
+  display: block;
+}
+/* Testimonial Section */
+.testimonial-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5EAFF;
+  border-radius: 4px;
+  box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+}
+.testimonial-title1{
+  
+  color: #000000;
+  padding-top: 15%;
+  margin-bottom: 0%;
+}
+.testimonial-title2{
+  
+  padding-top: 0%;
+}
+.testimonial-text{
+  padding:3%;
+}
+
+.john{
+  padding:20% 10%;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+.comma{
+  padding:15% 2%;
+}
+
+/* Footer Section */
+.black-section{
+  background-color: #000;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+/*Back to top button*/
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
