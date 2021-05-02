@@ -61,7 +61,7 @@
         <div class="col-md-3 enquiry">
           <div class="contact-form ">
             <h1 class="title">Enquire now</h1>
-            <form class="needs-validation"  action="">
+            <form class="needs-validation " id="my_form"  action="" novalidate>
               <div class="form-floating mb-3">
                 <input type="text" class="form-control"id="validationCustom01" id="floatingInput" placeholder="Name" required>
               </div>
@@ -82,10 +82,14 @@
               <div class="form-floating">
                 <textarea class="form-control" placeholder="Your Message" id="floatingTextarea"></textarea>
               </div>
-              <div class="form-floating mb-3">
-                <textarea class="form-control" placeholder="Recaptcha verification" id="floatingTextarea"></textarea>
-              </div>
               
+              <label class="container">
+                <input type="checkbox" id="recaptcha"placeholder="Phone Number" required >
+                <span class="checkmark"></span><span class="robot">I'm not a robot</span>
+              </label>
+              
+            
+        
                         
               <button class="btn-send">Submit</button>
             </form>
@@ -306,8 +310,6 @@
               <p class="card-content">Repeated abscess formation (liver abscess, brain abscess)</p>
             </div>
           </div>
-          
-          
         </div>
         
       </div>  
@@ -326,8 +328,14 @@
            <div class="col-md-10"> What are the conditions that requireBone Marrow Transplant? </div> 
            <div class="col-md-1"></div>       
            <div class="col-md-1">
-            <img  class="arrow"src="images/arrow.png" alt="arrow"> 
+            <img  class="arrow"src="images/arrow.png" alt="arrow" data-toggle="collapse" href="#question1" role="button" aria-expanded="false" aria-controls="collapseExample"> 
+         
+          </div>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
             </div>
+          </div>
         </div>
       </div>    
     
@@ -471,11 +479,6 @@
 <!--/.Controls-->
 
 <!--Indicators-->
-<ol class="carousel-indicators">
-  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-  <li data-target="#multi-item-example" data-slide-to="1"></li>
-  
-</ol>
 <!--/.Indicators-->
 
 <!--Slides-->
