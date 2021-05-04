@@ -1,5 +1,5 @@
 $(document).ready(function(){
-//Replace docors card
+//Replace doctors card
     $(".docCard").clone().appendTo(".repeat");   
 	
 //Warning Signs Cards
@@ -67,10 +67,10 @@ $(".testimonial-card").clone().appendTo(".sameCard");
 		  }else{
 			var recaptcha = document.getElementById('recaptcha');
 			if (recaptcha.checked == true){
-				alert("Form Submited Successfully!"); 
+				alert("Form Submitted Successfully!"); 
 			  } else {
 			//reCaptcha not verified
-			alert("please verify you are humann!"); 
+			alert("Please verify you are human!"); 
 			event.preventDefault();
 			event.stopPropagation();
 			  }

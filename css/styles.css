@@ -133,6 +133,12 @@ body{
 }
 
 /* Create a custom checkbox */
+.robot{
+  font-size: 12.2px;
+  line-height: 24px;
+  color: #5c5b5b;
+  padding-left: 5%;
+  }
 .checkmark {
   position: absolute;
   top: 0;
@@ -175,10 +181,11 @@ body{
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
+    top: 0;
+  left: 0;
+  height: 8px;
+  width: 8px;   
+  margin: 5% 8%;  
   border: solid white;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
@@ -213,6 +220,7 @@ body{
   font-weight: bold;
   font-size:24px;
   text-align: center;
+  padding-top: 5%;
 }
 .bitmap{
  width:40%;
@@ -227,8 +235,7 @@ body{
 .designation{
   color: #1D5AA6;
   font-size: 15px;
-  letter-spacing: 1.2px;
-  line-height: 3px;
+
   text-align: center;
 }
 .new{
@@ -255,7 +262,6 @@ ul li::before {
   content: "\002B";  
   color: red; 
   float: center;
-  font-weight: bold; 
   display: inline-block;
   width: 1em; 
   margin-left: -1em;
@@ -267,13 +273,13 @@ li{
 
 /*Warning Signs*/
 .group-icon{
-  width: 12%;
-  height: 24%;
+  width: 30px;
+  height: 41px;
   margin-bottom:8%;
 }
-.card-content{
-  margin-top: 12%;
+.card-content{  
   text-align: left;
+  font-size: 14px;
    
 }
 .signs-card{
@@ -287,6 +293,7 @@ li{
 .card1{
   background-color: white;
   border-style: hidden;
+  
 }
 /*Questions*/
 .question-card{
@@ -312,12 +319,17 @@ li{
   width: 1em; 
   margin-left: -1em;
   text-align: left;
+  
 }
 .arrow{
   width: 10px;
   height:10px;
   float: right;
   display: block;
+}
+.qBody{
+  background-color: #fff;
+  border-style: none;
 }
 /* Testimonial Section */
 .testimonial-card {
