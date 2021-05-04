@@ -269,9 +269,12 @@ li{
 .group-icon{
   width: 12%;
   height: 24%;
+  margin-bottom:8%;
 }
 .card-content{
-  padding-top: 3%;
+  margin-top: 12%;
+  text-align: left;
+   
 }
 .signs-card{
   background-color: #FFFFFF;
@@ -279,7 +282,11 @@ li{
   border-radius: 4px;
   box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
   width: 255px;
-  height: 170px;
+  height: 180px;
+}
+.card1{
+  background-color: white;
+  border-style: hidden;
 }
 /*Questions*/
 .question-card{
@@ -294,6 +301,7 @@ li{
   box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
   padding:1%;
   margin:2px;
+  
 }
 .questions ul li::before {
   content: "\2713";

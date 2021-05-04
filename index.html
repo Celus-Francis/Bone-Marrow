@@ -24,6 +24,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <!--Javascript file-->
   <script src="index.js"></script>
 </head>
@@ -80,7 +81,7 @@
                 <input type="number" class="form-control" id="floatingInput" placeholder="Phone Number"required>
               </div>
               <div class="form-floating">
-                <textarea class="form-control" placeholder="Your Message" id="floatingTextarea"></textarea>
+                <textarea class="form-control" placeholder="Your Message" id="floatingTextarea" required></textarea>
               </div>
               
               <label class="container">
@@ -143,47 +144,30 @@
       <div class="col-md-1"></div>
       <div class=" col-md-5">
         <div class="card">
-          <div class="card-body text-center">
             <h1 class="card-title">Pediatric BMT</h1>
+          <div class="docCard card-body text-center">
+            
             <img class="bitmap" src="images/Bitmap Copy.png" alt="doctor-photo">
             <p class="dr-vijay"><strong>Dr. Vijay Agarwal</strong></p>
             <p class="designation">MD, MRCP, PhD,CCT</p> 
-            <p class="designation">Lead & Sr. Consultant - Medical Oncology & Haematology</p>
+            <p class="designation">Lead & Sr. Consultant - Medical Oncology & <br>Haematology</p>
             <hr class="new">
             <p class=" card-text">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004. </p>
             <button class="know-more btn">Know More</button>
-            <hr>
-            <img class="bitmap" src="images/Bitmap Copy.png" alt="doctor-photo">
-            <p class="dr-vijay"><strong>Dr. Vijay Agarwal</strong></p>
-            <p class="designation">MD, MRCP, PhD,CCT</p> 
-            <p class="designation">Lead & Sr. Consultant - Medical Oncology & Haematology</p>
-            <hr class="new">
-            <p class= "card-text">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004. </p>
-            <button class="know-more btn">Know More</button>
+            
           </div>
+          <hr>
+          <div class="repeat"></div>
+          
         </div>
       </div>
       
       <div class=" col-md-5">
         <div class="card">
-          <div class="card-body text-center">
-            <h1 class=" card-title">Adult BMT</h1>
-            <img class="bitmap" src="images/Bitmap Copy.png" alt="doctor-photo">
-            <p class="dr-vijay"><strong>Dr. Vijay Agarwal</strong></p>
-            <p class="designation">MD, MRCP, PhD,CCT</p> 
-            <p class="designation">Lead & Sr. Consultant - Medical Oncology & Haematology</p>
-            <hr class="new">
-            <p class= "card-text">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004. </p>
-            <button class="know-more btn">Know More</button>
-            <hr>
-            <img class="bitmap" src="images/Bitmap Copy.png" alt="doctor-photo">
-            <p class="dr-vijay"><strong>Dr. Vijay Agarwal</strong></p>
-            <p class="designation">MD, MRCP, PhD,CCT</p> 
-            <p class="designation">Lead & Sr. Consultant - Medical Oncology & Haematology</p>
-            <hr class="new">
-            <p class= "card-text">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004. </p>
-            <button class="know-more btn">Know More</button>
-          </div>
+          <h1 class=" card-title">Adult BMT</h1>
+          <div class="repeat"></div>
+          <hr>
+          <div class="repeat"></div>
         </div>
       </div>
     </div>  
@@ -215,238 +199,99 @@
   </div>
 </section>
 
-<!--Warning signs-->
-<section class="types" id="types">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-1"></div>
-      <h1 class=" col-md-10">The warning signs of Immune deficiency</h1>  
-   </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class=" col-md-10">
-        <div class="card-deck">
-          <div class="card signs-card">
-            <div class="card-body">
-              <img class="group-icon" src="images/Group a.png" alt="group-icon">
-              <p class="card-content">Failure to thrive – not gaining weight and height as per the age norms</p>
+    <!--Warning signs-->
+    <section class="types" id="types">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <h1 class=" col-md-10">The warning signs of Immune deficiency</h1>  
+       </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class=" col-md-10">
+    
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="signs-card col">
+                <div class="card1 card">
+                  
+                  <div class="card-body">
+                   <div> <img class="changeMe group-icon" src="images/Group a.png" alt="group-icon"></div>
+                  <div class="changeSign card-content">Failure to thrive – not gaining weight and height as per 
+                    the age norms</div>
+                  </div>
+                </div>
+              </div>
+              <div class="mySign"></div>
+              <div class="mySign"></div>
+              <div class="mySign"></div>        
             </div>
-          </div>
-          <div class="card signs-card">
-            <div class="card-body">
-              <img class="group-icon" src="images/Group b.png" alt="group-icon">
-              <p class="card-content">Infections warranting multiple hospitalizations</p>
+            
+          </div>  
+       </div>
+      </div>
+    
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class=" col-md-10">
+            
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+    
+              <div class="mySign"></div>
+              <div class="mySign"></div>
+              <div class="mySign"></div>
+              <div class="mySign"></div>        
             </div>
-          </div>
-          <div class="card signs-card">
-            <div class="card-body">
-              <img class="group-icon" src="images/Group c.png" alt="group-icon">
-              <p class="card-content">Requirement of intravenous antibiotics to clear infections</p>            
+            
+          </div>  
+       </div>
+      </div>
+      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class=" col-md-10">
+            
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              
+              <div class="mySign"></div>
+              <div class="mySign"></div>        
             </div>
-          </div>
-          <div class="card signs-card">
-            <div class="card-body">
-              <img class="group-icon" src="images/Group d.png" alt="group-icon">
-              <p class="card-content">2 or more episodes of pneumonia</p>
-            </div>
-          </div>
-        </div>
-        
-      </div>  
-   </div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class=" col-md-10">
-        <div class="card-deck">
-          <div class="card signs-card">
-            <div class="card-body">
-              <img class="group-icon" src="images/Group e.png" alt="group-icon">
-              <p class="card-content">Family history of death of children at young age due to immune deficiency </p>
-            </div>
-          </div>
-          <div class="card signs-card">
-            <div class="card-body">
-              <img class="group-icon" src="images/Group f.png" alt="group-icon">
-              <p class="card-content">Repeated episodes of diarrhea</p>
-            </div>
-          </div>
-          <div class="card signs-card">
-            <div class="card-body">
-              <img class="group-icon" src="images/Group g.png" alt="group-icon">
-              <p class="card-content">2 or more episodes of sinus infections within a year</p>            
-            </div>
-          </div>
-          <div class="card signs-card">
-            <div class="card-body">
-              <img class="group-icon" src="images/Group h.png" alt="group-icon">
-              <p class="card-content">2 or more episodes of ear discharge</p>
-            </div>
-          </div>
-        </div>
-        
-      </div>  
-   </div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class=" col-md-5">
-        <div class="card-deck">
-          <div class="card signs-card">
-            <div class="card-body">
-              <img class="group-icon" src="images/Group i.png" alt="group-icon">
-              <p class="card-content">Repeated skin infections</p>
-            </div>
-          </div>
-          <div class="card signs-card">
-            <div class="card-body">
-              <img class="group-icon" src="images/Group j.png" alt="group-icon">
-              <p class="card-content">Repeated abscess formation (liver abscess, brain abscess)</p>
-            </div>
-          </div>
-        </div>
-        
-      </div>  
-   </div>
-  </div>
-</section>
+            
+          </div>  
+       </div>
+      </div>
+    
+    </section>
 
 <!--Questions-->
 <section class="questions" id="questions">
   <div class=" container-fluid">
-    <div class="row">      
+    <div class="questionCard row">      
       
       <div class="col-md-1"></div>
       <div class=" col-md-10">
         <div class="question-card  row">
-           <div class="col-md-10"> What are the conditions that requireBone Marrow Transplant? </div> 
+           <div class="replace col-md-9"> </div> 
            <div class="col-md-1"></div>       
            <div class="col-md-1">
-            <img  class="arrow"src="images/arrow.png" alt="arrow" data-toggle="collapse" href="#question1" role="button" aria-expanded="false" aria-controls="collapseExample"> 
-         
-          </div>
-          <div class="collapse" id="collapseExample">
+           <!-- <img  class="arrow"src="images/arrow.png" alt="arrow" data-toggle="collapse" href="#question1" role="button" aria-expanded="false" aria-controls="collapseExample"> -->
+           </div>
+           
+            <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica,
+               craft beer labore wes anderson cred nesciunt sapiente ea proident.
             </div>
-          </div>
-        </div>
-      </div>    
-    
-    </div>
-
-    <div class="row">      
-      
-      <div class="col-md-1"></div>
-      <div class=" col-md-10">
-        <div class="question-card  row">
-           <div class="col-md-10"> Which are the hematological diseases that may benefit from bone marrow transplants? </div>    
-           <div class="col-md-1"></div>    
-           <div class="col-md-1">
-            <img  class="arrow"src="images/arrow.png" alt="arrow"> 
             </div>
         </div>
       </div>    
     
     </div>
+    <div class="sameQuestion"> </div>
 
-    <div class="row">      
-      
-      <div class="col-md-1"></div>
-      <div class=" col-md-10">
-        <div class="question-card  row">
-           <div class="col-md-10"> What are the conditions that requireBone Marrow Transplant? </div>  
-           <div class="col-md-1"></div>      
-           <div class="col-md-1">
-            <img  class="arrow"src="images/arrow.png" alt="arrow"> 
-            </div>
-        </div>
-      </div>    
-    
-    </div>
-
-    <div class="row">      
-      
-      <div class="col-md-1"></div>
-      <div class=" col-md-10">
-        <div class="question-card  row">
-           <div class="col-md-10"> Which are the Cancers that may benefit from bone marrow transplants? </div>     
-           <div class="col-md-1"></div>   
-           <div class="col-md-1">
-            <img  class="arrow"src="images/arrow.png" alt="arrow"> 
-            </div>
-        </div>
-      </div>    
-    
-    </div>
-
-    <div class="row">      
-      
-      <div class="col-md-1"></div>
-      <div class=" col-md-10">
-        <div class="question-card  row">
-           <div class="col-md-10"> Do bone marrow failure syndromes require BMT? </div>   
-           <div class="col-md-1"></div>     
-           <div class="col-md-1">
-            <img  class="arrow"src="images/arrow.png" alt="arrow"> 
-            </div>
-        </div>
-      </div>    
-    
-    </div>
-
-    <div class="row">      
-      
-      <div class="col-md-1"></div>
-      <div class=" col-md-10">
-        <div class="question-card  row">
-           <div class="col-md-10"> What are Primary Immune Deficiency diseases ? </div> 
-           <div class="col-md-1"></div>       
-           <div class="col-md-1">
-            <img  class="arrow"src="images/arrow.png" alt="arrow"> 
-            </div>
-        </div>
-      </div>    
-    
-    </div>
-
-    <div class="row">      
-      
-      <div class="col-md-1"></div>
-      <div class=" col-md-10">
-        <div class="question-card  row">
-           <div class="col-md-10"> Which are the immune deficiencies that warrant BMT? </div> 
-           <div class="col-md-1"></div>       
-           <div class="col-md-1">
-            <img  class="arrow"src="images/arrow.png" alt="arrow"> 
-            </div>
-        </div>
-      </div>    
-    
-    </div>
-
-    <div class="row">      
-      
-      <div class="col-md-1"></div>
-      <div class=" col-md-10">
-        <div class="question-card  row">
-           <div class="col-md-10"> What makes transplants at Aster CMI unique?  </div> 
-           <div class="col-md-1"></div>       
-           <div class="col-md-1">
-            <img  class="arrow"src="images/arrow.png" alt="arrow"> 
-            </div>
-        </div>
-      </div>    
-    
-    </div>
-
-        
   </div>  
 </section>
 
@@ -510,37 +355,11 @@
             <em>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</em>
           </div>
       </div>
-    </div>
-
-    
+    </div>    
 
     <div class="col-md-5" style="float:left">
-      <div class="card  testimonial-card">
-        
-        <div class="row">
-          <div class="col-md-3">
-            <img  class="john"src="images/John.png" alt="Card image cap"> 
-          </div>
-
-          <div class=" col-md-6">
-            <p class="testimonial-title1"><strong>John Doe</strong></p>
-            <p class="testimonial-title2">Software Engineer</p>
-          </div>
-
-          
-          <div class="col-md-1">
-            <img  class="comma"src="images/comma.png" alt="Card image cap"> 
-          </div>
-        </div>
-
-          <div class="testimonial-text">
-            <em>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</em>
-          </div>
-      </div>
-    </div>
-
-    
-    
+       <div class="sameCard"></div>
+    </div>   
 
   </div>
   <!--/.First slide-->
@@ -549,56 +368,12 @@
   <div class="carousel-item">
 
     <div class="col-md-5" style="float:left">
-      <div class="card  testimonial-card ">
-        
-        <div class="row">
-          <div class="col-md-3">
-            <img  class="john"src="images/John.png" alt="Card image cap"> 
-          </div>
-
-          <div class=" col-md-6">
-            <p class="testimonial-title1"><strong>John Doe</strong></p>
-            <p class="testimonial-title2">Software Engineer</p>
-          </div>
-
-          
-          <div class="col-md-1">
-            <img  class="comma"src="images/comma.png" alt="Card image cap"> 
-          </div>
-        </div>
-
-          <div class="testimonial-text">
-            <em>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</em>
-          </div>
-      </div>
+      <div class="sameCard"></div>
     </div>
 
     <div class="col-md-5" style="float:left">
-      <div class="card  testimonial-card">
-        
-        <div class="row">
-          <div class="col-md-3">
-            <img  class="john"src="images/John.png" alt="Card image cap"> 
-          </div>
-
-          <div class=" col-md-6">
-            <p class="testimonial-title1"><strong>John Doe</strong></p>
-            <p class="testimonial-title2">Software Engineer</p>
-          </div>
-
-          
-          <div class="col-md-1">
-            <img  class="comma"src="images/comma.png" alt="Card image cap"> 
-          </div>
-        </div>
-
-          <div class="testimonial-text">
-            <em>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</em>
-          </div>
-      </div>
+      <div class="sameCard"></div>
     </div>
-
-
 
   </div>
 </div>

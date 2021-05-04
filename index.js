@@ -1,3 +1,56 @@
+$(document).ready(function(){
+//Replace docors card
+    $(".docCard").clone().appendTo(".repeat");   
+	
+//Warning Signs Cards
+$(".signs-card").clone().appendTo(".mySign"); 
+  
+var imageArray = ["images/Group a.png","images/Group b.png","images/Group c.png","images/Group d.png",
+"images/Group e.png","images/Group f.png","images/Group g.png","images/Group h.png",
+"images/Group i.png","images/Group j.png"]; 
+	   
+var ar=$(".changeMe");
+for(var i=0;i<ar.length;i++){
+	$(ar[i]).attr("src",imageArray[i]);
+} 
+
+var signsArray = ["Failure to thrive – not gaining weight and height as per the age norms",
+"Infections warranting multiple hospitalizations",
+"Requirement of intravenous antibiotics to clear infections","2 or more episodes of pneumonia",
+"Family history of death of children at young age due to immune deficiency ","Repeated episodes of diarrhea",
+"2 or more episodes of sinus infections within a year","2 or more episodes of ear discharge",
+"Repeated skin infections","Repeated abscess formation (liver abscess, brain abscess)"]
+		
+var a=$(".changeSign");
+for(var i=0;i<a.length;i++){
+	$(a[i]).replaceWith(signsArray[i]);
+} 
+     
+//Replace Questions
+	var questionArray = ["What are the conditions that requireBone Marrow Transplant?", 
+	"Which are the hematological diseases that may benefit from bone marrow transplants?",
+	 "What are the conditions that requireBone Marrow Transplant?", 
+	 "Which are the Cancers that may benefit from bone marrow transplants?",
+	 "Do bone marrow failure syndromes require BMT?",
+	 " What are Primary Immune Deficiency diseases ?",
+	 "Which are the immune deficiencies that warrant BMT?",
+	 " What makes transplants at Aster CMI unique?"
+	];
+	for(var i=0;i<3;i++){
+	$(".questionCard").clone().appendTo(".sameQuestion");
+	}
+	   
+	var arr=$(".replace");
+	for(var i=0;i<questionArray.length;i++){
+		$(arr[i]).replaceWith(questionArray[i]);
+	} 
+
+//Replace Testimonial cards
+$(".testimonial-card").clone().appendTo(".sameCard");   
+
+});
+ 
+
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
